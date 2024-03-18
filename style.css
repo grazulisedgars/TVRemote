@@ -35,11 +35,11 @@ button {
 }
 
 button:hover {
-    background-color: blue;
+    background-color: red;
     opacity: 50%;
 }
 
 button:active {
-    background: blue;
+    background: red;
     opacity: 100%;
 }
