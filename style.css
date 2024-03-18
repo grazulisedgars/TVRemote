@@ -1,0 +1,45 @@
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tv {
+    position: relative;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.remote {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(5, 50px);
+    gap: 5px;
+    padding: 10px;
+    background-color: #333;
+    border: 2px solid #666;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+    opacity: 50%;
+}
+
+button:active {
+    background: blue;
+    opacity: 100%;
+}
